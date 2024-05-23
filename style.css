@@ -1,0 +1,424 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #191010;
+  padding: 15px 16px 15px 16px;
+}
+
+.logo {
+  width: 200px;
+}
+
+
+.textpolice {
+  font-family: 'Italianno', sans-serif;
+}
+
+.textcouleur1 {
+  color: #FFF;
+}
+
+.textcouleur2 {
+  color: #06C1BE;
+}
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 45px;
+}
+
+.width7 {
+  width: 7%;
+  height: 7%;
+}
+
+.boutton {
+  padding: 10px 8px 10px 8px;
+  background-color: #06C1BE;
+  cursor: pointer;
+}
+
+.boutton:hover {
+  background-color: aliceblue;
+}
+
+
+.fontnone {
+  text-decoration: none;
+}
+
+.borderradius {
+  border-radius: 10px;
+}
+
+.fontazeret {
+  font-family: 'Azeret Mono', monospace;
+  
+}
+
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.petitfont {
+  font-size: 15px;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.google {
+  width: 23%;
+}
+
+.apple {
+  width: 21%;
+}
+
+.tailletelephone {
+  width: 35%;
+}
+
+.flexdirection {
+  flex-direction: column;
+}
+
+.taillediv {
+  width: 100%;
+}
+
+.titre {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.centerflex {
+  justify-content: center;
+}
+
+.width30 {
+  width: 30%;
+  height: auto;
+}
+
+.card {
+  width: 250px;
+  text-align: center;
+}
+
+.card p {
+  margin-top: 16px;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+
+.width40 {
+  width: 40%;
+  height: auto;
+}
+
+.boutton2 {
+  background-color: #69b9bf;
+  padding: 12px 12px 12px 12px;
+  cursor: pointer;
+}
+
+.boutton2:hover {
+  background-color: aliceblue;
+}
+
+.couleurnoir {
+  color: black;
+}
+
+.backgroundcolor {
+  margin-top: 20px;
+  padding-top: 20px;
+  background: rgb(6, 193, 190);
+  background: linear-gradient(180deg, rgba(6, 193, 190, 0.3) 0%, rgba(255, 255, 255, 0.5) 80%);
+  width: 100%;
+  height: auto;
+
+}
+
+.margin {
+  margin-top: 25px;
+}
+
+.titre2 {
+  font-size: 38px;
+}
+
+.marginright {
+  margin-right: 10%;
+}
+
+.marginleft {
+  margin-left: 10%;
+}
+
+.marginright2 {
+  margin-right: 2%;
+}
+
+.margintop {
+  margin-top: -20px;
+}
+
+.boutton3 {
+  background-color: #69b9bf;
+  padding: 15px 12px 15px 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.boutton3:hover {
+  background-color: aliceblue;
+}
+
+.tailletelephone2 {
+  width: 34%;
+  height: auto;
+}
+
+.fontsize4 {
+  font-size: 23px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fontsize5 {
+  font-size: 16px;
+}
+
+.width25 {
+  width: 15%;
+  height: auto;
+}
+
+.petitmargin {
+  margin-top: 10%;
+}
+
+.petitmargin2 {
+  margin-top: 13%;
+}
+
+
+.marginbottom {
+  margin-bottom: 8%;
+}
+
+.petitmargin3 {
+  margin-top: 3%;
+}
+
+.picto {
+  width: 34%;
+  object-fit: cover;
+}
+
+.marginleft9 {
+  margin-left: 40px;
+}
+
+.backgroundcolor2 {
+  background-color: #06c1be27;
+}
+
+.card2 {
+  background-color: #FFF;
+  width: 25%;
+  height: auto;
+  border-radius: 13px;
+  box-shadow: 2px 2px 15px #191010;
+  cursor: pointer;
+}
+
+.card2:hover{
+  scale: 1.1;
+  box-shadow: 4px 4px 19px #191010;
+}
+
+
+.tailleimg {
+  width: 30%;
+}
+
+.petitpadding {
+  padding: 10px;
+}
+
+.margintop6 {
+  margin-top: 8%;
+}
+
+.fontsizeavis {
+  font-size: 14px;
+}
+
+.petitpadding2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.paddingb {
+  padding-bottom: 40px;
+}
+
+footer {
+  background-image: url("image/ftimg.png");
+  background-size: cover;
+  height: 418px;
+}
+
+.width60 {
+  width: 74%;
+}
+
+.widthjsp {
+  width: 8%;
+}
+
+.apple2 {
+  width: 15%;
+  object-fit: cover;
+}
+
+.google2 {
+  width: 16%;
+  object-fit: cover;
+}
+
+.marigintop {
+  margin-top: 13%;
+}
+
+.petitbackground {
+  background-color: #191010;
+  width: 100%;
+  height: 50px;
+}
+
+.fontsize7 {
+  font-size: 14px;
+}
+
+.fontsize8 {
+  font-size: 17px;
+}
+
+
+.reduirdiv {
+  width: 35%;
+  height: 400px;
+}
+
+.centrerr {
+  justify-content: center;
+}
+
+
+.widthgoogle1{
+
+  width: 21%;
+height: 17%;
+}
+
+.widthapple1{
+
+  width: 23%;
+height: 17%;
+
+}
+
+.petitarbrre{
+
+  width: 5%;
+  height: 10%;
+
+}
+
+.logo100{
+
+width: 27%;
+height: 20%;
+
+}
+
+.marginfooter{
+
+  margin: 5px;
+
+}
+
+
+.margintopfooter{
+  margin-top: 14px;
+}
+
+.tailledeladiv{
+  width: 50%;
+}
+
+.tailledeladiv2{
+  width: 40%;
+}
+
+
+.boutton5{
+  background-color: #69b9bf;
+  padding: 15px 12px 15px 12px;
+  cursor: pointer;
+  font-size: 22px;
+margin: auto;
+margin-top: 85px;
+  cursor: pointer;
+}
+
+.boutton5:hover{
+  background-color: aliceblue;
+}
+
+
+
+.marginmini{
+  margin-top: 30px;
+}
+
+.minipadding{
+padding-top: 50px;
+
+}

@@ -1,0 +1,185 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #191010;
+  padding: 15px 16px 15px 16px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.boutton {
+  padding: 10px 8px 10px 8px;
+  background-color: #06C1BE;
+  cursor: pointer;
+}
+
+.boutton:hover {
+  background-color: #6ad2d1;
+}
+
+.fontnone {
+  text-decoration: none;
+}
+
+.borderradius {
+  border-radius: 10px;
+}
+
+.fontazeret {
+  font-family: 'Azeret Mono', monospace;
+}
+
+.width7 {
+  width: 7%;
+  height: 7%;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+}
+
+.textcouleur1 {
+  color: #FFF;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo{
+  widht: 100%;
+}
+article{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.5rem 100px 20px 100px;
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+
+.titre {
+  text-align: center;
+  padding: 3rem;
+}
+
+
+
+
+
+.notion {
+  display: flex;
+
+}
+
+.liens {
+  position: relative;
+ 
+}
+
+.liens nav {
+  position: sticky;
+  top: 64px;
+  
+}
+
+.liens nav a {
+  text-decoration: none;
+  color: #0c0c0c;
+  margin-bottom: 12px;
+
+}
+
+.liens ul {
+  padding: 0 0 0 18px;
+   
+}
+
+
+.liens nav ul>li a {
+  font-weight: bold;
+  font-size: 16px;
+  
+  display: inline-block;
+}
+
+.liens nav ul li ul li a {
+  display: inline-block;
+  font-size: 14px;
+  
+  font-weight: normal;
+}
+
+.notion .liens {
+  width: 30%;
+}
+
+.notion .contenue {
+  width: 70%;
+}
+
+.contenue img {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 64px;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  color: #06C1BE;
+  padding: 2rem;
+}
+
+
+
+.img {
+  width: 100%;
+
+}
+
+h4 {
+  font-size: 12, 5px;
+  padding: 2rem;
+}
+
+.fonct {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.part1 {
+  width: 30%;
+}
+
+.part2 {
+  width: 70%;
+  padding: 2rem;
+}
+.fonct img{
+  width: 220px;
+  height: 80px;
+}
+.GPS img{
+  width: 180px;
+  height: 40px;
+}
+
